@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-tok63^u&ogp$ye(7q=7zaohetkvbxq11asypjv)==#c7trkz+e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Di settings.py
+ALLOWED_HOSTS = ['finance-tracker-ml.railway.internal', 'localhost', '127.0.0.1', '*']
 
 
 # Application definition
