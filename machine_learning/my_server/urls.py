@@ -20,5 +20,5 @@ from my_server.views import prediksi_kategori_finance
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/api/finance/predict/', prediksi_kategori_finance)
+        path('/api/finance/predict/', prediksi_kategori_finance)
 ]
