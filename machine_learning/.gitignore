@@ -1,0 +1,12 @@
+# Mengabaikan virtual environment Python
+venv/
+
+# Mengabaikan database lokal Django
+db.sqlite3
+
+# Mengabaikan sisa kompilasi Python
+__pycache__/
+*.pyc
+
+# Mengabaikan file model jika ukurannya terlalu besar (Hapus tanda # jika ingin mengaktifkan)
+ *.pkl
